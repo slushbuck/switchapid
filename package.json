@@ -23,5 +23,7 @@
     "type-graphql": "^2.0.0-beta.1",
     "zod": "^3.21.4"
   },
-  "scripts": {}
+  "scripts": {
+    "server": "node --loader ts-node/esm ./src/index.ts"
+  }
 }
